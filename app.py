@@ -6,8 +6,8 @@ with st.form(key='include_cliente'):
     input_valorFolha = st.number_input(label='Valor da Folha')
     input_larguraFolha = st.number_input(label="Largura da Folha (mt): ")
     input_comprimentoFolha = st.number_input(label="Compr. da Folha (mt)")
-    input_larPeca = st.number_input(label='Largura da peça(mm): ')
-    input_compPeca = st.number_input(label='Comprimento da Peça(mm): ')
+    input_larPeca = st.number_input(label='Largura da peça(cm): ')
+    input_compPeca = st.number_input(label='Comprimento da Peça(cm): ')
     input_button_submit = st.form_submit_button(label='Calcular')
     if input_button_submit:
         valorCHAPA = input_valorFolha
